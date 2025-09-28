@@ -105,7 +105,7 @@ npm start
 
 ### 5️⃣ Open your browser
 
-Navigate to `http://localhost:3000` and start chatting! 🎉
+Open the `index.html` file in your browser or use a live server to test and chat. The server runs on `localhost:3000`.
 
 ## 💻 Usage
 
