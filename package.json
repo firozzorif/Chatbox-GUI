@@ -1,0 +1,17 @@
+{
+  "name": "group-chat-app",
+  "version": "1.0.0",
+  "description": "A simple group chat application with WebSocket and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "mysql": "^2.18.1"
+  },
+  "keywords": ["chat", "websocket", "mysql"],
+  "author": "",
+  "license": "MIT"
+}
