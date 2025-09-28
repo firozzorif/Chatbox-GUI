@@ -36,17 +36,26 @@ body {
 .message {
   margin: 5px 0;
   padding: 8px;
-  border-radius: 5px;
+  border-radius: 15px;
+  max-width: 70%;
+  word-wrap: break-word;
 }
 
 .message.self {
   background: #a50000;
   color: white;
+  margin-left: auto;
+  margin-right: 0;
   text-align: right;
+  border-bottom-right-radius: 5px;
 }
 
 .message.other {
   background: #eee;
+  margin-left: 0;
+  margin-right: auto;
+  text-align: left;
+  border-bottom-left-radius: 5px;
 }
 
 .chat-input {

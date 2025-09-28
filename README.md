@@ -19,14 +19,40 @@
 
 Experience real-time messaging with a sleek, anonymous chat interface that connects users instantly through WebSocket technology.
 
+## 📸 Screenshots
+
+<div align="center">
+
+### 💬 Chat Interface Demo
+
+![Chat Interface - View 1](demo-images/Img1.png)
+
+![Chat Interface - View 2](demo-images/Img2.png)
+
+_Real-time chat with anonymous messaging - your messages appear on the right with red background, others on the left_
+
+**Key Features Shown:**
+
+- 🔴 **Your messages**: Red background, positioned on the right
+- 💬 **Other messages**: Gray background, positioned on the left
+- 👤 **Anonymous messaging** for all users
+- 🎨 **Clean, modern chat bubble** design
+- ⌨️ **Enter key support** for quick messaging
+- 📱 **Responsive design** that works on all devices
+
+</div>
+
 ## ✨ Features
 
 - 💬 **Real-time messaging** using WebSocket technology
 - 👤 **Anonymous chat** functionality for privacy
 - 🗄️ **MySQL database** integration for message persistence
-- 🎨 **Clean and responsive** UI design
+- 🎨 **Clean and responsive** UI design with modern chat bubbles
 - ⚡ **Instant message delivery** to all connected users
 - 📱 **Mobile-friendly** interface
+- 🔴 **Personalized message styling** - your messages appear on the right with red background
+- ⌨️ **Enter key support** for quick message sending
+- 🎯 **Smart message positioning** - sent messages on right, received on left
 
 ## 🛠️ Prerequisites
 

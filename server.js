@@ -28,9 +28,9 @@ wss.on("connection", ws => {
         // Save to DB (anonymous user_id = 1 for example)
         db.query("INSERT INTO messages (group_id, user_id, message) VALUES (1, 1, ?)", [message]);
 
-        // Broadcast to all
+        // Broadcast to all other clients (not the sender)
         wss.clients.forEach(client => {
-            if (client.readyState === WebSocket.OPEN) {
+            if (client.readyState === WebSocket.OPEN && client !== ws) {
                 client.send(JSON.stringify({ user: "anonymous", message }));
             }
         });
